@@ -5,9 +5,8 @@ $(".changeColor").mouseenter(function () {
 })
 
 $(".changeColor").mouseleave(function () {
-	$(this).css("color", "white");
+	$(this).css("color", "fff");
 })
-
 
 $(".hamburger").click(function () {
 	console.log("clickedHamburger")
@@ -18,4 +17,10 @@ $('.navIcons').click(function () {
 	$('.navIcons').removeClass('active');
 	$(this).addClass('active');
 });
+
+$('#home').click(function () {
+	$(this).css("opacity", "0");
+
+});
+
 

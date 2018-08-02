@@ -27,13 +27,15 @@
 }
 
 .navIcons {
-    font-size: 28px;
+    font-size: 20px;
     display: block;
     float: left;
-    width: 33.3%;
+    width: 20%;
     text-align: center;
     height: 60px;
     line-height: 60px;
+    color: grey;
+    transition: all 0.3s ease-out;
 }
 
 h1 {
@@ -66,3 +68,9 @@ h1 {
 .active {
     color: #66ff00;
 }
+
+/* #home {
+    transition: all 0.3s ease-out;
+} */
+
+
