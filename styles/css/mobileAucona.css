@@ -1,4 +1,23 @@
 /* Navigation Bar Styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav:nth-of-type(2) ul li {
+    float: left;
+    font-size: 20px;
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #66ff00;
+    transition: all 0.3s ease-out;
+}
 
 .navbar-inverse {
     background-color: #181818;
@@ -28,8 +47,6 @@
 
 .navIcons {
     font-size: 20px;
-    display: block;
-    float: left;
     width: 20%;
     text-align: center;
     height: 60px;
@@ -38,9 +55,29 @@
     transition: all 0.3s ease-out;
 }
 
-h1 {
-     color: white;
-     text-align: center;
+.homeh1 {
+    color: #fff;
+}
+
+.homeTextBox {
+    position: absolute;
+    top: 40%;
+    left: 24px;
+    font-size: 28px;
+    Font-Family: 'Work Sans', Sans-Serif;
+    Font-Size: 30px;
+}
+
+.homeTextBox span:nth-of-type(9) {
+    margin-right: 10px;
+}
+
+.homeTextBox span:nth-of-type(16) {
+    margin-right: 10px;
+}
+
+.homeTextBox span:nth-of-type(18) {
+    margin-right: 10px;
 }
 
 .navbar2 {
@@ -65,12 +102,67 @@ h1 {
     opacity: 1;
 }
 
-.active {
+#hamburgerMenu a {
+    position: relative;
+    width: 100%;
+}
+
+#hamburgerMenu .active a {
     color: #66ff00;
 }
 
-/* #home {
-    transition: all 0.3s ease-out;
-} */
+#hamburgerMenu .active .navIcons {
+    opacity: 0;
+}
+
+#hamburgerMenu a:before {
+    content: '';
+    position: absolute;
+    height: 60px;
+    line-height: 60px;
+    left: -15px;
+    width: 50px;
+    opacity: 0;
+    font-size: 10px;
+    display: inline-block;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#hamburgerMenu ul li:nth-of-type(1) a:before {
+    content: 'Home';
+}
+
+#hamburgerMenu ul li:nth-of-type(2) a:before {
+    content: 'About';
+}
+
+#hamburgerMenu ul li:nth-of-type(3) a:before {
+    content: 'Skills';
+}
+
+#hamburgerMenu ul li:nth-of-type(4) a:before {
+    content: 'My Work';
+}
+
+#hamburgerMenu ul li:nth-of-type(5) a:before {
+    content: 'Contact';
+}
+
+#hamburgerMenu .active a:before {
+    opacity: 1;
+}
+
+.viewPortfolioBtn {
+    width: 55%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #66ff00;
+    color:#333333;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
 
 

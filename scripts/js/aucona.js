@@ -14,14 +14,8 @@ $(".hamburger").click(function () {
 });
 
 // Code to change from Active to inactive
-$('.navIcons').click(function () {
-	$('.navIcons').removeClass('active');
-	$(this).addClass('active');
+$('#hamburgerMenu a').click(function () {
+	$('#hamburgerMenu li').removeClass('active');
+	$(this).closest('li').addClass('active');
 });
-
-// Fade Out Icons for name replacement
-$('#home').click(function () {
-	$(this).css("opacity", "0");
-});
-
 
