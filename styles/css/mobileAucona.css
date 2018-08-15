@@ -63,7 +63,6 @@ nav:nth-of-type(2) ul li {
     position: absolute;
     top: 40%;
     left: 24px;
-    font-size: 28px;
     Font-Family: 'Work Sans', Sans-Serif;
     Font-Size: 30px;
 }
@@ -130,6 +129,7 @@ nav:nth-of-type(2) ul li {
     text-transform: uppercase;
 }
 
+
 #hamburgerMenu ul li:nth-of-type(1) a:before {
     content: 'Home';
 }
@@ -155,14 +155,67 @@ nav:nth-of-type(2) ul li {
 }
 
 .viewPortfolioBtn {
-    width: 55%;
+    width: 200px;
     font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
     padding: 5px;
     background-color: #66ff00;
     color:#333333;
     border: none;
     border-radius: 5px;
     margin: 10px 0px;
+    position: relative;
 }
 
+.backLogo {
+    overflow: hidden;
+}
 
+.textContainer {
+    width: 100%;
+}
+
+.logoWrapper {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    opacity: 0.2;
+    z-index: -5;
+}
+
+path {
+    stroke: #fff;
+    fill: #fff;
+    stroke-dasharray: 1200;
+    opacity: 10;
+    animation: animate 3s cubic-bezier(0,0.23,1,.1);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 1200;
+    }
+
+    30% {
+        opacity: 10;
+        fill: none;
+        stroke: #66ff00;
+        stroke-dashoffset: 1200;
+    }
+
+    90% {
+        fill: rgba(255, 255, 255, 0);
+        stroke: #66ff00;
+    }
+
+    100% {
+        opacity: 10;
+        fill: rgba(255, 255, 255, 1);
+        stroke-dashoffset: 0;
+    }
+}

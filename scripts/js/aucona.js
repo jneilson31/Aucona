@@ -19,3 +19,16 @@ $('#hamburgerMenu a').click(function () {
 	$(this).closest('li').addClass('active');
 });
 
+//alternating text on homepage
+
+$(function () {
+	count = 0;
+	personalAdj = ["UX Designer", "Frontend Developer"];
+	setInterval(function () {
+		count++;
+		$(".altText").fadeOut(400, function () {
+			$(this).text(personalAdj[count % personalAdj.length]).fadeIn(400);
+		});
+	}, 3000);
+});
+
