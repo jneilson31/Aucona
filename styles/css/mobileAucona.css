@@ -1,4 +1,39 @@
-/* Navigation Bar Styles */
+.contactForms, .contactFormMessage {
+    display: block;
+    background-color: rgba(128, 128, 128, 1.0);
+    border: 1px solid transparent;
+    width: 100%;
+    margin: 15px auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: 'Work Sans', Sans-Serif;
+    font-weight: 900;
+}
+
+.contactFormMessage {
+    height: 150px;
+}
+
+.contactForms::placeholder, .contactFormMessage::placeholder {
+    color: #181818;
+    padding: 0px;
+}
+
+.contactContainer {
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.contactForms:focus, .contactFormMessage:focus {
+    outline-color: transparent;
+    border-left: 5px;
+    border-radius: 5px;
+    color: #181818;
+}
+    
 ul {
     list-style-type: none;
     margin: 0;
@@ -51,8 +86,14 @@ nav:nth-of-type(2) ul li {
     text-align: center;
     height: 60px;
     line-height: 60px;
-    color: grey;
+    color: #808080;
     transition: all 0.3s ease-out;
+}
+
+.headerTitle {
+    color: #66ff00;
+    font-family: 'Open Sans', Sans-Serif;
+    font-weight: 900;
 }
 
 .homeh1 {
@@ -63,7 +104,7 @@ nav:nth-of-type(2) ul li {
     position: absolute;
     top: 40%;
     left: 24px;
-    Font-Family: 'Work Sans', Sans-Serif;
+    font-family: 'Work Sans', Sans-Serif;
     Font-Size: 30px;
 }
 
@@ -154,10 +195,23 @@ nav:nth-of-type(2) ul li {
     opacity: 1;
 }
 
+.submitBtn {
+    float: right;
+    background-color: #66ff00;
+    color: #181818;
+    font-weight: 600;
+    min-height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    font-family: "open sans";
+}
+
 .viewPortfolioBtn {
     width: 200px;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
+    font-family: "open sans";
     letter-spacing: 1px;
     padding: 5px;
     background-color: #66ff00;
@@ -191,6 +245,7 @@ path {
     fill: #fff;
     stroke-dasharray: 1200;
     opacity: 10;
+    -webkit-animation: animate 3s cubic-bezier(0,0.23,1,.1);
     animation: animate 3s cubic-bezier(0,0.23,1,.1);
 }
 
