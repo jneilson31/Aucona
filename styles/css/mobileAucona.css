@@ -7,7 +7,6 @@
     padding: 16px;
     border-radius: 5px;
     font-family: 'Work Sans', Sans-Serif;
-    font-weight: 900;
 }
 
 .contactFormMessage {
@@ -199,7 +198,6 @@ nav:nth-of-type(2) ul li {
     float: right;
     background-color: #66ff00;
     color: #181818;
-    font-weight: 600;
     min-height: 30px;
     border: none;
     border-radius: 5px;
@@ -210,7 +208,6 @@ nav:nth-of-type(2) ul li {
 .viewPortfolioBtn {
     width: 200px;
     font-size: 20px;
-    font-weight: 600;
     font-family: "open sans";
     letter-spacing: 1px;
     padding: 5px;
