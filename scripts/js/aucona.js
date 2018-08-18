@@ -32,6 +32,7 @@ $(function () {
 	}, 3000);
 });
 
+//Work Slide in Function
 $('.box-wrapper').each(function (index, element) {
 
 	setTimeout(function () {
