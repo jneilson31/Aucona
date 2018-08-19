@@ -18,11 +18,19 @@
     padding: 0px;
 }
 
+.myContainer {
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .contactContainer {
     padding-right: 32px;
     padding-left: 32px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 80px;
 }
 
 .contactForms:focus, .contactFormMessage:focus, .primaryCTAbtn:focus {
@@ -90,7 +98,7 @@ nav:nth-of-type(2) ul li {
 
 .headerBackground {
     background: #3d3d3d;
-    padding: 16px;
+    padding: 16px 32px;
     margin: 80px 0px 24px 0px;
 }
 .headerTitle {
@@ -268,7 +276,29 @@ nav:nth-of-type(2) ul li {
     border-radius: 5px;
     margin: 16px auto;
     display: block;
+}
 
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 4px;
+    right: 0px;
+    z-index:99;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    color: #66ff00;
+    border: none;
+    font-size: 20px;
+    float: right;
+    padding: 6px;
+    text-align: center;
+}
+
+#top {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
 }
 
 .backLogo {
@@ -329,12 +359,13 @@ path {
     transition-duration: 600ms;
 }
 
-.box-wrapper.loading:nth-child(odd) {
-    transform: translate(100%);
-    -webkit-transform: translate(100%);    
+.box-wrapper.loading:nth-child(even) {
+    transform: translate(150%);
+    -webkit-transform: translate(150%);    
 }
 
-.box-wrapper.loading:nth-child(even) {
-    transform: translate(-100%);        
-    -webkit-transform: translate(-100%);
+.box-wrapper.loading:nth-child(odd) {
+    transform: translate(-150%);        
+    -webkit-transform: translate(-150%);
 }
+
