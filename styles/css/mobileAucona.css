@@ -33,7 +33,7 @@
     margin-top: 80px;
 }
 
-.contactForms:focus, .contactFormMessage:focus, .primaryCTAbtn:focus {
+.contactForms:focus, .contactFormMessage:focus, .primaryCTAbtn:focus, .secondaryCTAbtn:focus {
     outline-color: transparent;
     /* border-left: 5px;
     border-radius: 5px;
@@ -276,6 +276,7 @@ nav:nth-of-type(2) ul li {
     border-radius: 5px;
     margin: 16px auto;
     display: block;
+    outline: none;
 }
 
 #scrollBtn {
