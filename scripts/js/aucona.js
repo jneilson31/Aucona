@@ -20,7 +20,6 @@ $('#hamburgerMenu a').click(function () {
 });
 
 //alternating text on homepage
-
 $(function () {
 	count = 0;
 	personalAdj = ["UX Designer", "Frontend Developer"];

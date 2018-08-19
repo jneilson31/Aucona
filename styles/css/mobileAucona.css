@@ -23,7 +23,6 @@
     padding-left: 32px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 80px;
 }
 
 .contactForms:focus, .contactFormMessage:focus, .primaryCTAbtn:focus {
@@ -89,16 +88,19 @@ nav:nth-of-type(2) ul li {
     transition: all 0.3s ease-out;
 }
 
+.headerBackground {
+    background: #3d3d3d;
+    padding: 16px;
+    margin: 80px 0px 24px 0px;
+}
 .headerTitle {
     color: #66ff00;
     font-family: 'Open Sans', Sans-Serif;
-    font-weight: 900;
 }
 
 .headerDescription {
     font-family: 'work Sans', Sans-Serif;
     font-size: 14px;
-    margin-bottom: 20px;
 }
 
 .homeh1 {
@@ -150,6 +152,10 @@ nav:nth-of-type(2) ul li {
 #hamburgerMenu a {
     position: relative;
     width: 100%;
+}
+
+.menu {
+    position: fixed;
 }
 
 #hamburgerMenu .active a {
@@ -248,6 +254,21 @@ nav:nth-of-type(2) ul li {
     border-radius: 5px;
     margin: 10px 0px;
     position: relative;
+}
+
+.secondaryCTAbtn {
+    width: 90%;
+    font-size: 20px;
+    font-family: "open sans";
+    letter-spacing: 1px;
+    padding: 5px;
+    background-color: transparent;
+    color:#66ff00;
+    border: 1px solid #66ff00;
+    border-radius: 5px;
+    margin: 16px auto;
+    display: block;
+
 }
 
 .backLogo {
