@@ -37,6 +37,7 @@
     background: transparent;
     height: 10px;
     width: 100%;
+    margin-bottom: 130px;
 }
 
 .contactForms:focus, .contactFormMessage:focus, .primaryCTAbtn:focus, .secondaryCTAbtn:focus {
@@ -108,7 +109,7 @@ nav:nth-of-type(2) ul li {
 .headerBackgroundFirst {
     background: #3d3d3d;
     padding: 16px 32px;
-    margin: 140px 0px 24px 0px;
+    margin: 0px 0px 24px 0px;
 }
 
 .headerBackground {
@@ -310,6 +311,7 @@ nav:nth-of-type(2) ul li {
     float: right;
     padding: 6px;
     text-align: center;
+    margin-bottom: -130px;
 }
 
 #top {
