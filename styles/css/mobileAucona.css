@@ -140,7 +140,7 @@ nav:nth-of-type(2) ul li {
     Font-Size: 30px;
 }
 
-.homeTextBox span:nth-of-type(9) {
+/* .homeTextBox span:nth-of-type(9) {
     margin-right: 10px;
 }
 
@@ -150,7 +150,7 @@ nav:nth-of-type(2) ul li {
 
 .homeTextBox span:nth-of-type(18) {
     margin-right: 10px;
-}
+} */
 
 .navbar2 {
 	width: 100%;
