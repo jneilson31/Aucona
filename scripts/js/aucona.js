@@ -11,6 +11,8 @@ $(".changeColor").mouseleave(function () {
 $(".hamburger").click(function () {
 	console.log("clickedHamburger")
 	$("#hamburgerMenu").toggleClass("navShow");
+	$(".headerBackgroundAbout").toggleClass("active");
+	$("#top").toggleClass("active");
 });
 
 // Code to change from Active to inactive
