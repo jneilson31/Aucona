@@ -13,6 +13,7 @@ $(".hamburger").click(function () {
 	$("#hamburgerMenu").toggleClass("navShow");
 	$(".headerBackgroundAbout").toggleClass("active");
 	$("#top").toggleClass("active");
+	$("#topWork").toggleClass("active");
 });
 
 // Code to change from Active to inactive

@@ -34,13 +34,28 @@
     
 }
 
+#topWork.active {
+    background: transparent;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-out;
+}
+
+#topWork {
+    background: transparent;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 110px;
+    transition: all 0.3s ease-out;
+}
+
 #top.active {
     background: transparent;
     height: 10px;
     width: 100%;
     margin-bottom: 120px;
     transition: all 0.3s ease-out;
-
 }
 
 #top {
@@ -49,7 +64,6 @@
     width: 100%;
     margin-bottom: 100px;
     transition: all 0.3s ease-out;
-
 }
 
 .contactForms:focus, .contactFormMessage:focus, .primaryCTAbtn:focus, .secondaryCTAbtn:focus {
