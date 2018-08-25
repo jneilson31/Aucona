@@ -1,3 +1,7 @@
+/* Green: #66ff00
+Yellow: #fdfc47 */
+
+
 .contactForms, .contactFormMessage {
     display: block;
     background-color: rgba(128, 128, 128, 1.0);
@@ -294,18 +298,21 @@ nav:nth-of-type(2) ul li {
 
 
 }
+
 .viewPortfolioBtn {
     width: 200px;
     font-size: 20px;
     font-family: "open sans";
     letter-spacing: 1px;
     padding: 5px;
-    background-color: #66ff00;
+    background-image: linear-gradient(to bottom right, #66ff00, #fdfc47);
     color:#333333;
     border: none;
     border-radius: 5px;
     margin: 10px 0px;
     position: relative;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .primaryCTAbtn {
@@ -314,7 +321,7 @@ nav:nth-of-type(2) ul li {
     font-family: "open sans";
     letter-spacing: 1px;
     padding: 5px;
-    background-color: #66ff00;
+    background-image: linear-gradient(to bottom right, #66ff00, #fdfc47);
     color:#333333;
     border: none;
     border-radius: 5px;
