@@ -1,7 +1,15 @@
 /* Green: #66ff00
 Yellow: #fdfc47 */
 
+p {
+    font-family: 'work Sans', Sans-Serif;
+    font-size: 15px;
+}
 
+hr {
+    border-color:#808080;
+    margin: 2rem auto;
+}
 .contactForms, .contactFormMessage {
     display: block;
     background-color: rgba(128, 128, 128, 1.0);
@@ -42,7 +50,7 @@ Yellow: #fdfc47 */
     background: transparent;
     height: 10px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 95px;
     transition: all 0.3s ease-out;
 }
 
@@ -168,9 +176,83 @@ nav:nth-of-type(2) ul li {
     font-family: 'Open Sans', Sans-Serif;
 }
 
+.caseStudyTitle {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'work Sans', Sans-Serif;
+    color: white;
+    line-height: 75px;
+}
+
+.findingsTitle {
+    color: #fdfc47;
+    font-size: 18px;
+    font-family: 'Open Sans', Sans-Serif;
+    line-height: 2.0;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    margin-top: 24px;
+}
+
+.caseStudyBox {
+    height: 75px;
+    border-top: 2px solid #66ff00;
+    border-bottom: 2px solid #66ff00;
+}
+
+.headerWork {
+    color: #66ff00;
+    font-size: 24px;
+    font-family: 'Open Sans', Sans-Serif;
+}
+
 .headerDescription {
     font-family: 'work Sans', Sans-Serif;
+    font-size: 15px;
+}
+
+.disclaimerTitle {
+    font-family: 'work Sans', Sans-Serif;
     font-size: 14px;
+    color: #fdfc47;
+}
+
+.disclaimerBox {
+    background: #313131;
+    padding: 12px;
+    margin: 24px auto;
+    border-radius: 5px;
+}
+
+.disclaimer {
+    font-family: 'work Sans', Sans-Serif;
+    font-size: 14px;
+}
+
+.disclaimerBox ul li {
+    font-family: 'work Sans', Sans-Serif;
+    font-size: 14px;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    color: #66ff00;
+}
+
+.disclaimerBox ul li span{
+    color: #fff;
+}
+
+.processHeader {
+    margin: 24px auto;
+}
+
+#quoteName {
+    color: #fdfc47;
+}
+
+#quoteName:before {
+    content: "-";
+    padding: 4px;
 }
 
 .homeh1 {
