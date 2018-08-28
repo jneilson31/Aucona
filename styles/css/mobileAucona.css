@@ -395,22 +395,27 @@ nav:nth-of-type(2) ul li {
 .workTitle {
     color: #fff;
     font-family: "work sans";
+}
 
-
+.copyrightType {
+    font-size: 12px;
+    text-align: right;
+    font-family: "open sans", sarif;
 }
 
 .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
+    margin: 16px auto;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
 .videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .viewPortfolioBtn {
