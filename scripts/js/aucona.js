@@ -46,9 +46,12 @@ window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
 	if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-		document.getElementById("scrollBtn").style.display = "block";
+		$("#scrollBtn").fadeIn(1000);
+		// document.getElementById("scrollBtn").style.display = "block";
+		
 	} else {
-		document.getElementById("scrollBtn").style.display = "none";
+		$("#scrollBtn").fadeOut(1000);
+		// document.getElementById("scrollBtn").style.display = "none";
 	}
 }
 
