@@ -8,12 +8,18 @@ $(".changeColor").mouseleave(function () {
 })
 
 //Toggle Hamburger Menu for Secondary Nav
-$(".hamburger").click(function () {
+$("#nav-icon").click(function () {
 	console.log("clickedHamburger")
 	$("#hamburgerMenu").toggleClass("navShow");
 	$(".headerBackgroundAbout").toggleClass("active");
 	$("#top").toggleClass("active");
 	$("#topWork").toggleClass("active");
+});
+
+$(document).ready(function () {
+	$('#nav-icon').click(function () {
+		$(this).toggleClass('open');
+	});
 });
 
 // Code to change from Active to inactive
@@ -91,4 +97,7 @@ $('a[href*="#"]')
 			}
 		}
 	});
+
+
+	
 
