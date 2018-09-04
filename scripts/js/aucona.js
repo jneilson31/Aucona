@@ -47,6 +47,12 @@ $('.box-wrapper').each(function (index, element) {
 	}, index * 500);
 });
 
+$('.mySkillsHeader').each(function (index, element) {
+	setTimeout(function () {
+		element.classList.remove('loading');
+	}, index * 500);
+});
+
 //Scroll to top of Page Function
 window.onscroll = function () { scrollFunction() };
 
@@ -98,23 +104,31 @@ $('a[href*="#"]')
 		}
 	});
 
+
+
 setTimeout(function () {
 	$('.boxCover').addClass('magictime boingOutDown');
-}, 1000);
+}, 500);
 
 setTimeout(function () {
 	$('.boxCover2').addClass('magictime boingOutDown');
-}, 2000);
+}, 750);
 
 setTimeout(function () {
 	$('.boxCover3').addClass('magictime boingOutDown');
-}, 3000);
+}, 1000);
 
-$('.box-wrapper').each(function (index, element) {
-	setTimeout(function () {
-		element.classList.remove('loading');
-	}, index * 500);
-});
+setTimeout(function () {
+	$('.boxCover4').addClass('magictime boingOutDown');
+}, 1250);
+
+setTimeout(function () {
+	$('.boxCover5').addClass('magictime boingOutDown');
+}, 1500);
+
+setTimeout(function () {
+	$('.boxCover6').addClass('magictime boingOutDown');
+}, 1750);
 
 	
 
