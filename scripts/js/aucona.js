@@ -98,6 +98,9 @@ $('a[href*="#"]')
 		}
 	});
 
+setTimeout(function () {
+	$('.boxCover').addClass('magictime boingOutDown');
+}, 1000);
 
 	
 
