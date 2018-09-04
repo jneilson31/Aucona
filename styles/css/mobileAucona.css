@@ -618,9 +618,6 @@ path {
     float: right;
 }
 
-#nav-icon {
-}
-
 #nav-icon span {
   display: block;
   position: absolute;
@@ -733,7 +730,7 @@ path {
     line-height: 90px;
 }
 
-.boxCover {
+.boxCover, .boxCover2, .boxCover3{
     display: block;
     position: absolute;
     padding: 2px;

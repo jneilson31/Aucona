@@ -102,5 +102,19 @@ setTimeout(function () {
 	$('.boxCover').addClass('magictime boingOutDown');
 }, 1000);
 
+setTimeout(function () {
+	$('.boxCover2').addClass('magictime boingOutDown');
+}, 2000);
+
+setTimeout(function () {
+	$('.boxCover3').addClass('magictime boingOutDown');
+}, 3000);
+
+$('.box-wrapper').each(function (index, element) {
+	setTimeout(function () {
+		element.classList.remove('loading');
+	}, index * 500);
+});
+
 	
 
