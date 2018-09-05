@@ -1,3 +1,10 @@
+a {
+    color: #fdfc47;
+    text-decoration: underline;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
 .homeTextBox {
     position: absolute;
     top: 35%;
@@ -59,7 +66,7 @@ a:hover, a:focus {
 
 p {
     font-family: 'work Sans', Sans-Serif;
-    font-size: 15px;
+    font-size: 1.7em;
 }
 
 hr {
@@ -84,7 +91,7 @@ hr {
     background-color: rgba(128, 128, 128, 1.0);
     border: 1px solid transparent;
     width: 100%;
-    margin: 15px auto;
+    margin: 8px auto;
     padding: 10px;
     font-size: 15px;
     border-radius: 5px;
@@ -105,6 +112,7 @@ hr {
     padding-left: 32px;
     margin-right: auto;
     margin-left: auto;
+    width: 650px;
 }
 
 .contactContainer {
@@ -216,14 +224,14 @@ nav:nth-of-type(2) ul li {
 
 .headerBackgroundAbout.active {
     background: transparent;
-    padding: 16px 32px 0px;
+    padding: 16px 0px 0px;
     margin: -40px 0px 24px 0px;
     transition: all 0.3s ease-out;
 }
 
 .headerBackgroundAbout {
     background: transparent;
-    padding: 16px 32px 0px;
+    padding: 16px 0px 0px;
     margin: 0px 0px 24px 0px;
     transition: all 0.3s ease-out;
 }
@@ -236,7 +244,7 @@ nav:nth-of-type(2) ul li {
 
 .headerBackground {
     background: #3d3d3d;
-    padding: 16px 32px;
+    padding: 16px 0px;
     margin: 50px 0px 24px 0px;
 }
 
@@ -411,7 +419,7 @@ nav:nth-of-type(2) ul li {
     width: 25%;
     font-family: "open sans";
     font-size: 15px;
-    margin: 15px 0px;
+    margin: 8px 0px;
 }
 
 .thumbnail {
@@ -560,7 +568,7 @@ nav:nth-of-type(2) ul li {
 }
 
 path {
-    stroke: #fff;
+    stroke: transparent;
     fill: #fff;
     stroke-dasharray: 1200;
     opacity: 10;
@@ -603,7 +611,7 @@ path {
     width: 60px;
     height: 45px;
     position: relative;
-    margin: 16px -8px;
+    margin: 16px 0px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
