@@ -586,13 +586,13 @@ path {
     30% {
         opacity: 10;
         fill: none;
-        stroke: #66ff00;
+        stroke: #fff;
         stroke-dashoffset: 1200;
     }
 
     90% {
         fill: rgba(255, 255, 255, 0);
-        stroke: #66ff00;
+        stroke: #fff;
     }
 
     100% {
@@ -605,6 +605,16 @@ path {
 .mySkillsHeader.loading {
     transform: translateY(-150%);
     -webkit-transform: translateY(-150%); 
+}
+
+.aboutPic {
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(75%, 120%);
+    width: 50%;
+    transition: all 0.3s ease-out;
 }
 
 #nav-icon {
