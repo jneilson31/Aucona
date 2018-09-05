@@ -1,3 +1,55 @@
+.homeTextBox {
+    position: absolute;
+    top: 35%;
+    left: 64px;
+    font-family: 'Work Sans', Sans-Serif;
+    Font-Size: 50px;
+}
+
+.viewPortfolioBtn {
+    width: 250px;
+    font-size: 28px;
+    font-family: "open sans";
+    letter-spacing: 1px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right, #66ff00, #fdfc47);
+    color: #333333;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.box-wrapper, .mySkillsHeader {
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+.box-wrapper.loading1 {
+    transform: translate(-300%);        
+    -webkit-transform: translate(-300%);
+}
+
+.box-wrapper.loading2 {
+    transform: translate(300%);
+    -webkit-transform: translate(300%);    
+}
+
+.headerTitle {
+    color: #66ff00;
+    font-size: 3em;
+    font-family: 'Open Sans', Sans-Serif;
+}
+
+.headerDescription {
+    font-family: 'work Sans', Sans-Serif;
+    font-size: 2.0em;
+}
+
+
+
 /* Green: #66ff00
 Yellow: #fdfc47 */
 
@@ -153,7 +205,7 @@ nav:nth-of-type(2) ul li {
 }
 
 .navIcons {
-    font-size: 20px;
+    font-size: 24px;
     width: 20%;
     text-align: center;
     height: 60px;
@@ -188,12 +240,6 @@ nav:nth-of-type(2) ul li {
     margin: 50px 0px 24px 0px;
 }
 
-.headerTitle {
-    color: #66ff00;
-    font-size: 3em;
-    font-family: 'Open Sans', Sans-Serif;
-}
-
 .caseStudyTitle {
     text-align: center;
     font-size: 36px;
@@ -223,11 +269,6 @@ nav:nth-of-type(2) ul li {
     color: #66ff00;
     font-size: 24px;
     font-family: 'Open Sans', Sans-Serif;
-}
-
-.headerDescription {
-    font-family: 'work Sans', Sans-Serif;
-    font-size: 1.5em;
 }
 
 .disclaimerTitle {
@@ -280,14 +321,6 @@ nav:nth-of-type(2) ul li {
     color: #fff;
 }
 
-.homeTextBox {
-    position: absolute;
-    top: 40%;
-    left: 24px;
-    font-family: 'Work Sans', Sans-Serif;
-    Font-Size: 28px;
-}
-
 .navbar2 {
 	width: 100%;
     position: fixed;
@@ -334,9 +367,9 @@ nav:nth-of-type(2) ul li {
     height: 60px;
     line-height: 60px;
     left: -15px;
-    width: 50px;
+    width: 100px;
     opacity: 0;
-    font-size: 10px;
+    font-size: 13px;
     display: inline-block;
     transition: all 0.5s ease-out;
     text-align: center;
@@ -360,7 +393,7 @@ nav:nth-of-type(2) ul li {
 }
 
 #hamburgerMenu ul li:nth-of-type(5) a:before {
-    content: 'Contact';
+    content: 'Contact Me';
 }
 
 #hamburgerMenu .active a:before {
@@ -378,7 +411,7 @@ nav:nth-of-type(2) ul li {
     width: 25%;
     font-family: "open sans";
     font-size: 15px;
-    margin: 0px;
+    margin: 15px 0px;
 }
 
 .thumbnail {
@@ -410,22 +443,6 @@ nav:nth-of-type(2) ul li {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.viewPortfolioBtn {
-    width: 200px;
-    font-size: 20px;
-    font-family: "open sans";
-    letter-spacing: 1px;
-    padding: 5px;
-    background-image: linear-gradient(to bottom right, #66ff00, #fdfc47);
-    color:#333333;
-    border: none;
-    border-radius: 5px;
-    margin: 10px 0px;
-    position: relative;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
 }
 
 .primaryCTAbtn {
@@ -482,11 +499,11 @@ nav:nth-of-type(2) ul li {
     font-family: 'work Sans', Sans-Serif;
     font-size: 18px;
     color: #fdfc47;
-    margin: 16px auto;
+    margin: 8px auto;
 }
 
 .secondaryCTAbtn {
-    width: 90%;
+    width: 50%;
     font-size: 20px;
     font-family: "open sans";
     letter-spacing: 1px;
@@ -575,21 +592,6 @@ path {
         fill: rgba(255, 255, 255, 1);
         stroke-dashoffset: 0;
     }
-}
-
-.box-wrapper, .mySkillsHeader {
-    -webkit-transition-duration: 600ms;
-    transition-duration: 600ms;
-}
-
-.box-wrapper.loading:nth-child(even) {
-    transform: translate(150%);
-    -webkit-transform: translate(150%);    
-}
-
-.box-wrapper.loading:nth-child(odd) {
-    transform: translate(-150%);        
-    -webkit-transform: translate(-150%);
 }
 
 .mySkillsHeader.loading {
@@ -725,5 +727,3 @@ path {
     height: 100px;
     opacity: 0;
 }
-
-
