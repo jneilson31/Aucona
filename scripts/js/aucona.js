@@ -43,7 +43,10 @@ $(function () {
 //Work Slide in Function
 $('.box-wrapper').each(function (index, element) {
 	setTimeout(function () {
-		element.classList.remove('loading');
+		element.classList.remove('loading1');
+	}, index * 500);
+	setTimeout(function () {
+		element.classList.remove('loading2');
 	}, index * 500);
 });
 
@@ -104,31 +107,6 @@ $('a[href*="#"]')
 		}
 	});
 
-
-
-// setTimeout(function () {
-// 	$('.boxCover').addClass('magictime boingOutDown');
-// }, 500);
-
-// setTimeout(function () {
-// 	$('.boxCover2').addClass('magictime boingOutDown');
-// }, 750);
-
-// setTimeout(function () {
-// 	$('.boxCover3').addClass('magictime boingOutDown');
-// }, 1000);
-
-// setTimeout(function () {
-// 	$('.boxCover4').addClass('magictime boingOutDown');
-// }, 1250);
-
-// setTimeout(function () {
-// 	$('.boxCover5').addClass('magictime boingOutDown');
-// }, 1500);
-
-// setTimeout(function () {
-// 	$('.boxCover6').addClass('magictime boingOutDown');
-// }, 1750);
 
 setTimeout(function () {
 	$('.skillsThumbnails1').addClass('magictime boingInUp');
