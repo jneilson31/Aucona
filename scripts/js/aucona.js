@@ -106,29 +106,57 @@ $('a[href*="#"]')
 
 
 
-setTimeout(function () {
-	$('.boxCover').addClass('magictime boingOutDown');
-}, 500);
+// setTimeout(function () {
+// 	$('.boxCover').addClass('magictime boingOutDown');
+// }, 500);
+
+// setTimeout(function () {
+// 	$('.boxCover2').addClass('magictime boingOutDown');
+// }, 750);
+
+// setTimeout(function () {
+// 	$('.boxCover3').addClass('magictime boingOutDown');
+// }, 1000);
+
+// setTimeout(function () {
+// 	$('.boxCover4').addClass('magictime boingOutDown');
+// }, 1250);
+
+// setTimeout(function () {
+// 	$('.boxCover5').addClass('magictime boingOutDown');
+// }, 1500);
+
+// setTimeout(function () {
+// 	$('.boxCover6').addClass('magictime boingOutDown');
+// }, 1750);
 
 setTimeout(function () {
-	$('.boxCover2').addClass('magictime boingOutDown');
-}, 750);
-
-setTimeout(function () {
-	$('.boxCover3').addClass('magictime boingOutDown');
+	$('.skillsThumbnails1').addClass('magictime boingInUp');
 }, 1000);
 
 setTimeout(function () {
-	$('.boxCover4').addClass('magictime boingOutDown');
+	$('.skillsThumbnails2').addClass('magictime boingInUp');
 }, 1250);
 
 setTimeout(function () {
-	$('.boxCover5').addClass('magictime boingOutDown');
+	$('.skillsThumbnails3').addClass('magictime boingInUp');
 }, 1500);
 
 setTimeout(function () {
-	$('.boxCover6').addClass('magictime boingOutDown');
+	$('.skillsThumbnails4').addClass('magictime boingInUp');
 }, 1750);
+
+setTimeout(function () {
+	$('.skillsThumbnails5').addClass('magictime boingInUp');
+}, 2000);
+
+setTimeout(function () {
+	$('.skillsThumbnails6').addClass('magictime boingInUp');
+}, 2250);
+
+setTimeout(function () {
+	$('.caseStudyTitle').addClass('magictime boingInUp');
+}, 500);
 
 	
 
