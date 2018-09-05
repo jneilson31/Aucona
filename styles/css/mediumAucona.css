@@ -612,7 +612,7 @@ path {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(75%, 120%);
+    transform: translate(75%, 135%);
     width: 50%;
     transition: all 0.3s ease-out;
 }
