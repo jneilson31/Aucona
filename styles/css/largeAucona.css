@@ -7,8 +7,8 @@ a {
 
 .homeTextBox {
     position: absolute;
-    top: 35%;
-    left: 64px;
+    top: 30%;
+    left: 10%;
     font-family: 'Work Sans', Sans-Serif;
     Font-Size: 50px;
 }
@@ -186,12 +186,12 @@ nav:nth-of-type(2) ul li {
 .navbar-inverse {
     background-color: #181818;
     border-color: transparent;
-    width: 100%;
-    height: 60px;
+    width: 75px;
+    height: 100vh;
     position: fixed;
     top: 0;
     z-index: 5;
-}   
+}  
 
 .hamburger {
     font-size: 30px;
@@ -358,7 +358,13 @@ nav:nth-of-type(2) ul li {
 }
 
 .menu {
-    position: fixed;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 52px;
+    padding: 0px 16px;
+    margin: 0 auto;
+    display: block;
 }
 
 #hamburgerMenu .active a {
@@ -559,10 +565,10 @@ nav:nth-of-type(2) ul li {
 
 .logoWrapper {
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 45%;
     opacity: 0.1;
     z-index: -5;
 }
