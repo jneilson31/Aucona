@@ -1,0 +1,27 @@
+{
+  "name": "auconawebsite",
+  "version": "1.0.0",
+  "description": "Online Portfolio",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jneilson31/Aucona.git"
+  },
+  "author": "Jeremy Neilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jneilson31/Aucona/issues"
+  },
+  "homepage": "https://github.com/jneilson31/Aucona#readme"
+}
