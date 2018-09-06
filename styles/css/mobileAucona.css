@@ -5,7 +5,7 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-a {
+#contactAnchor {
     color: #fdfc47;
     text-decoration: underline;
     background-color: transparent;
