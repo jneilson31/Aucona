@@ -1,6 +1,11 @@
 /* Green: #66ff00
 Yellow: #fdfc47 */
 
+.logo {
+    width: 45px;
+    margin: 4px 8px;
+}
+
 a:hover, a:focus {
     text-decoration: none;
 }
@@ -34,6 +39,11 @@ hr {
     display: block;
     margin: 16px auto;
 }
+
+.progressImg {
+    width: 100%;
+}
+
 .contactForms, .contactFormMessage {
     display: block;
     background-color: rgba(128, 128, 128, 1.0);
@@ -60,7 +70,7 @@ hr {
     padding-left: 32px;
     margin-right: auto;
     margin-left: auto;
-    width: auto;
+    width: 100%;
 }
 
 .contactContainer {
@@ -733,8 +743,8 @@ path {
     padding: 2px;
     margin-top: 20px;
     line-height: 1.42857143;
-    /* background-image: linear-gradient(to bottom right, #66ff00, #fdfc47); */
     font-size: 14px;
+    font-weight: 300;
     color: #fff;
     border: 1px solid #66ff00;
     border-radius: 4px;
