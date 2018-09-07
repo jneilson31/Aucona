@@ -250,10 +250,10 @@ nav:nth-of-type(2) ul li {
 
 .caseStudyTitle {
     text-align: center;
-    font-size: 36px;
+    font-size: 60px;
     font-family: 'work Sans', Sans-Serif;
     color: white;
-    line-height: 75px;
+    line-height: 125px;
     opacity: 0;
 }
 
@@ -268,7 +268,7 @@ nav:nth-of-type(2) ul li {
 }
 
 .caseStudyBox {
-    height: 75px;
+    height: 125px;
     border-top: 2px solid #66ff00;
     border-bottom: 2px solid #66ff00;
 }
