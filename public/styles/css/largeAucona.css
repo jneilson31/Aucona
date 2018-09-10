@@ -10,6 +10,29 @@
     margin: 4px 8px;
 }
 
+.socialMediaIcons {
+    position: fixed;
+    top: 80%;
+    left: 0;
+    float: right;
+    font-size: 24px;
+    text-align: center;
+    height: 60px;
+    z-index: 10;
+    line-height: 60px;
+    color: #808080;
+    opacity: 0.4;
+    margin-left: 24px;
+}
+
+.socialMediaIcons a {
+    color: #808080;
+}
+
+.socialMediaIcons a:hover {
+    color: #66ff00;
+}
+
 .homeTextBox {
     position: absolute;
     top: 30%;
@@ -41,13 +64,13 @@
 }
 
 .box-wrapper.loading1 {
-    transform: translate(-300%);        
-    -webkit-transform: translate(-300%);
+    transform: translate(-500%);        
+    -webkit-transform: translate(-500%);
 }
 
 .box-wrapper.loading2 {
-    transform: translate(300%);
-    -webkit-transform: translate(300%);    
+    transform: translate(500%);
+    -webkit-transform: translate(500%);    
 }
 
 .headerTitle {
@@ -597,7 +620,7 @@ nav:nth-of-type(2) ul li {
     display: none;
     position: fixed;
     bottom: 4px;
-    right: 75px;
+    right: 24px;
     z-index: 99;
     outline: none;
     cursor: pointer;

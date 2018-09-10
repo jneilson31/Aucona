@@ -6,6 +6,7 @@ var bodyParser = require("body-parser");
 app.use(express.static("public"))
 app.set("view engine", "ejs");
 
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", function (req, res) {
@@ -41,7 +42,7 @@ app.get("/eggscape", function (req, res) {
 });
 
 app.get("/mnn", function (req, res) {
-    res.render("mnn");
+    res.render("mnn"); 
 });
 
 app.get("/skills", function (req, res) {
@@ -67,6 +68,39 @@ app.get("/weddinginvites", function (req, res) {
 app.get("/work", function (req, res) {
     res.render("work");
 });
+
+app.post("/contact", function (req, res) {
+
+    var transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'jeremyneilson31@gmail.com',
+            pass: 'oyxrxguzfbjvpgmx'
+        },
+        tls: {
+            rejectUnauthorized: false
+        }
+    });
+
+    var mailOptions = {
+        from: req.body.email,
+        to: 'jeremyneilson31@gmail.com',
+        subject: req.body.name + " - " + req.body.subject + " - " + req.body.email,
+        text: req.body.message
+    };
+
+    transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Email sent: ' + info.response);
+        }
+    });
+   
+res.redirect("contact");
+
+});
+
 
 
 app.listen(process.env.PORT, process.env.IP, function () {

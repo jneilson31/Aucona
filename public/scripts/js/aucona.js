@@ -41,14 +41,14 @@ $(function () {
 });
 
 //Work Slide in Function
-$('.box-wrapper').each(function (index, element) {
-	setTimeout(function () {
-		element.classList.remove('loading1');
-	}, index * 500);
-	setTimeout(function () {
-		element.classList.remove('loading2');
-	}, index * 500);
-});
+// $('.box-wrapper').each(function (index, element) {
+// 	setTimeout(function () {
+// 		element.classList.remove('loading1');
+// 	}, index * 500);
+// 	setTimeout(function () {
+// 		element.classList.remove('loading2');
+// 	}, index * 500);
+// });
 
 $('.mySkillsHeader').each(function (index, element) {
 	setTimeout(function () {
@@ -141,7 +141,9 @@ setTimeout(function () {
 
 setTimeout(function () {
 	$('.caseStudyTitle').addClass('magictime boingInUp');
+	$('.box-wrapper').addClass('magictime spaceInDown');
 }, 500);
+
 
 
 
