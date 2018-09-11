@@ -515,6 +515,7 @@ nav:nth-of-type(2) ul li {
 .thumbnail {
     background-color: transparent;
     border: 1px solid #fff;
+    opacity: 0;
 }
 
 .workTitle {
