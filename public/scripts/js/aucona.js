@@ -31,7 +31,7 @@ $('#hamburgerMenu a').click(function () {
 //alternating text on homepage
 $(function () {
 	count = 0;
-	personalAdj = ["UX Designer", "Frontend Developer"];
+	personalAdj = ["UX Designer"];
 	setInterval(function () {
 		count++;
 		$(".altText").fadeOut(400, function () {
