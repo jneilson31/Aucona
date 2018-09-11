@@ -9,6 +9,16 @@
 
     <% include partials/header %>
 
+    <div class="socialMenu hidden-sm">
+        <div class="socialMediaIcons">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/jeremyneilson31/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/jeremy.neilson.5"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com/jneilson31"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
     <div class="myContainer">
 
 
@@ -23,19 +33,19 @@
         <form action="/contact" method="post" role="form">
             <div class="row">
                 <div class="col-sm-6">
-                    <input class="contactForms box-wrapper loading1" type="text" name="name" placeholder="Name">
+                    <input class="contactForms box-wrapper loadContact" type="text" name="name" placeholder="Name">
                 </div>
                 <div class="col-sm-6">
-                    <input class="contactForms box-wrapper loading2" type="text" name="email" placeholder="Email">
+                    <input class="contactForms box-wrapper loadContact" type="text" name="email" placeholder="Email">
                 </div>
                 <div class="col-sm-12">
-                    <input class="contactForms box-wrapper loading1" type="text" name="subject" placeholder="Subject">
+                    <input class="contactForms box-wrapper loadContact" type="text" name="subject" placeholder="Subject">
                 </div>
                 <div class="col-sm-12">
-                    <textarea name="message" class="contactFormMessage box-wrapper loading2" placeholder="Message" cols="30" rows="10"></textarea>
+                    <textarea name="message" class="contactFormMessage box-wrapper loadContact" placeholder="Message" cols="30" rows="10"></textarea>
                 </div>
             </div>           
-            <button class="submitBtn box-wrapper loading2" type="submit">Send</button>
+            <button class="submitBtn box-wrapper loadContact" type="submit">Send</button>
         </form>
 
         
