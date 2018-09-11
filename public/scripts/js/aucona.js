@@ -29,16 +29,16 @@ $('#hamburgerMenu a').click(function () {
 });
 
 //alternating text on homepage
-// $(function () {
-// 	count = 0;
-// 	personalAdj = ["UX Designer", "Frontend Developer"];
-// 	setInterval(function () {
-// 		count++;
-// 		$(".altText").fadeOut(400, function () {
-// 			$(this).text(personalAdj[count % personalAdj.length]).fadeIn(400);
-// 		});
-// 	}, 3000);
-// });
+$(function () {
+	count = 0;
+	personalAdj = ["A UX Designer", "An aspiring Frontend Developer"];
+	setInterval(function () {
+		count++;
+		$(".altText").fadeOut(400, function () {
+			$(this).text(personalAdj[count % personalAdj.length]).fadeIn(400);
+		});
+	}, 3000);
+});
 
 //Work Slide in Function
 // $('.box-wrapper').each(function (index, element) {
