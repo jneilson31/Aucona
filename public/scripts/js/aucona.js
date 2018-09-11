@@ -141,7 +141,7 @@ setTimeout(function () {
 
 setTimeout(function () {
 	$('.caseStudyTitle').addClass('magictime boingInUp');
-	$('.box-wrapper').addClass('magictime spaceInDown');
+	$('.thumbnail').addClass('magictime spaceInDown');
 }, 500);
 
 
