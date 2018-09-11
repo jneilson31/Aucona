@@ -128,6 +128,7 @@ hr {
     font-size: 15px;
     border-radius: 5px;
     font-family: 'Work Sans', Sans-Serif;
+    opacity: 0;
 }
 
 .contactFormMessage {
@@ -510,6 +511,7 @@ nav:nth-of-type(2) ul li {
     font-family: "open sans";
     font-size: 15px;
     margin: 8px 0px;
+    opacity: 0;
 }
 
 .thumbnail {
