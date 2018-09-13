@@ -82,6 +82,16 @@ hr {
     
 }
 
+.additionalWorkArrow {
+    font-size: 25px;
+    line-height: 75px;
+    margin: 0px 30px;
+}
+
+.caseStudyBox a {
+    color: white;
+}
+
 #topWork.active {
     background: transparent;
     height: 10px;
@@ -221,11 +231,12 @@ nav:nth-of-type(2) ul li {
 
 .caseStudyTitle {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.5em;
     font-family: 'work Sans', Sans-Serif;
     color: white;
     line-height: 75px;
     opacity: 0;
+    width: 100%;
 }
 
 .sectionTitle {
@@ -242,6 +253,8 @@ nav:nth-of-type(2) ul li {
     height: 75px;
     border-top: 2px solid #66ff00;
     border-bottom: 2px solid #66ff00;
+    display: flex;
+    justify-content: center;
 }
 
 .headerWork {
@@ -307,7 +320,7 @@ nav:nth-of-type(2) ul li {
 
 .homeTextBox {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 24px;
     font-family: 'Work Sans', Sans-Serif;
     Font-Size: 28px;
@@ -560,7 +573,7 @@ nav:nth-of-type(2) ul li {
 
 .logoWrapper {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
