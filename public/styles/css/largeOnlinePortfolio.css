@@ -226,6 +226,23 @@ nav:nth-of-type(2) ul li {
     z-index: 5;
 }  
 
+.additionalWorkArrow {
+    font-size: 45px;
+    line-height: 125px;
+}
+
+.leftArrow {
+    margin: 0px 0px 0px 350px;
+}
+
+.rightArrow {
+    margin: 0px 350px 0px 0px;
+}
+
+.caseStudyBox a {
+    color: white;
+}
+
 .hamburger {
     font-size: 30px;
     color: #fff;
@@ -283,11 +300,12 @@ nav:nth-of-type(2) ul li {
 
 .caseStudyTitle {
     text-align: center;
-    font-size: 60px;
+    font-size: 5.0em;
     font-family: 'work Sans', Sans-Serif;
     color: white;
     line-height: 125px;
     opacity: 0;
+    width: 100%;
 }
 
 .sectionTitle {
@@ -304,6 +322,8 @@ nav:nth-of-type(2) ul li {
     height: 125px;
     border-top: 2px solid #66ff00;
     border-bottom: 2px solid #66ff00;
+    display: flex;
+    justify-content: center;
 }
 
 .headerWork {
