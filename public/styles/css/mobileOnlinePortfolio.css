@@ -73,6 +73,15 @@ hr {
     width: 100%;
 }
 
+.mySkillsContainer {
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
 .contactContainer {
     padding-right: 32px;
     padding-left: 32px;
@@ -218,9 +227,11 @@ nav:nth-of-type(2) ul li {
 }
 
 .headerBackground {
-    background: #3d3d3d;
+    background: transparent;
     padding: 16px 0px;
-    margin: 50px 0px 24px 0px;
+    margin: 0px 0px 24px 0px;
+    border-top: 2px solid #66ff00;
+    border-bottom: 2px solid #66ff00;
 }
 
 .headerTitle {
@@ -423,6 +434,7 @@ nav:nth-of-type(2) ul li {
     background-color: transparent;
     border: 1px solid #fff;
     opacity: 0;
+    margin-bottom: 40px;
 }
 
 .workTitle {
