@@ -552,10 +552,17 @@ nav:nth-of-type(2) ul li {
     margin-bottom: 40px;
 }
 
+.thumbnail > img, .thumbnail a > img {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+}
+
 .workTitle {
     color: #fff;
     font-family: "work sans";
     font-weight: 300;
+    font-size: 3.5rem;
 }
 
 .copyrightType {
@@ -591,7 +598,7 @@ nav:nth-of-type(2) ul li {
     display: block;
     margin: 16px auto;
     position: relative;
-    width: 90%;
+    width: 93%;
     font-weight: 600;
 }
 
